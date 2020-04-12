@@ -5,5 +5,5 @@ a, b = 0, 1
 x = int(input("CALCULADORA FIBONACCI. Digite o número limite: "))
 print("Calculando os números de Fibonacci até",x,": ")
 while a < x:
-    print(a, end=",")
+    print(a, end=" ")
     a, b = b, a+b
